@@ -15,7 +15,7 @@ $excludefirstrow = true;
 
 //CSV filename
 
-$csvfile = 'test2.csv';
+$csvfile = 'file.csv';
 
 //read csv spreadsheet file as array
 $votearray = array_map('str_getcsv', file($csvfile));
